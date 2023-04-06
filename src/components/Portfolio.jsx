@@ -20,26 +20,26 @@ const Portfolio = () => {
         demo:'https://harshithbooks.netlify.app/',
       },{
         id: 4,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
-        code:'https://github.com/Harshithdhara291/nxttrendz004',
-        demo:'nxttrendz004.ccbp.tech',
+        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680766470/Screenshot_70_jf15yx.png',
+        code:'https://github.com/Harshithdhara291/randomQuoteGenerator',
+        demo:'https://quotegenerator04.netlify.app/',
       },{
         id: 5,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
-        code:'https://github.com/Harshithdhara291/nxttrendz004',
-        demo:'nxttrendz004.ccbp.tech',
+        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765847/Screenshot_68_airlt7.png',
+        code:'https://github.com/Harshithdhara291/bmicalculator',
+        demo:'mybmicalculator.ccbp.tech',
       },{
         id: 6,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
-        code:'https://github.com/Harshithdhara291/nxttrendz004',
-        demo:'nxttrendz004.ccbp.tech',
+        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765831/Screenshot_67_x5rey0.png',
+        code:'https://github.com/Harshithdhara291/RockPaperScissors',
+        demo:'harshrps004.ccbp.tech',
       },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white sm:py-100 md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -49,7 +49,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, image,demo,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img

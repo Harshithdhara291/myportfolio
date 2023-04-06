@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Experience = () => {
+const Skills = () => {
   const techs = [
     {
       id: 1,
@@ -23,31 +23,37 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
-      title: "Python",
-      style: "shadow-sky-400",
+      src: 'https://www.lansweeper.com/wp-content/uploads/2018/05/ASSET-SOFTWARE-SQL-DATABASE.png',
+      title: "SQL",
+      style: "shadow-gray-600",
     },
     {
       id: 5,
+      src: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
+      title: "Python",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 6,
       src: 'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg',
       title: "Node JS",
       style: "shadow-green-400",
     },
     {
-        id: 6,
+        id: 7,
         src: 'https://cdn.worldvectorlogo.com/logos/react-2.svg',
-        title: "React",
+        title: "React JS",
         style: "shadow-cyan-600",
       },
     {
-      id: 7,
+      id: 8,
       src: 'https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg',
       title: "VS Code",
       style: "shadow-blue-400",
     },
     {
-      id: 8,
-      src: 'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
+      id: 9,
+      src: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680767474/Screenshot_73_g3vjlk.png',
       title: "GitHub",
       style: "shadow-gray-400",
     },
@@ -55,8 +61,8 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      name="skills"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-120vh sm:py-5 md:p-10"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -82,4 +88,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;

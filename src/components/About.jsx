@@ -8,29 +8,19 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl mt-32 font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl mt-10">
+        Hi, my name is Harshith, and I'm graduating Btech final year in JNTUH university in the stream of Electrical engineering, Besides these I am learnig web development in Nxtwave. I have acquired strong technical skills in web development, which includes proficiency in HTML, CSS, JavaScript, and React.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        As a fresher, I am highly motivated and eager to learn and grow in the field of web development. I am passionate about creating engaging and user-friendly web applications that can make a difference in people's lives. I am a team player, always willing to collaborate with others and contribute to the success of the project. I have worked on various projects during my coursework, such as creating responsive and interactive websites, building e-commerce platforms, and designing intuitive user interfaces. 
         </p>
       </div>
     </div>

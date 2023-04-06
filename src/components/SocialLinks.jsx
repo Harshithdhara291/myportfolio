@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/harshithdharavasthu",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md bg-blue-500",
     },
     {
       id: 2,
@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/Harshithdhara291",
+      style: "bg-gray-800",
     },
     {
       id: 3,
@@ -32,6 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:harshithdhara291@gmail.com",
+      style: "bg-red-600",
     },
     {
       id: 4,
