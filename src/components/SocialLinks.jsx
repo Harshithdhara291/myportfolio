@@ -23,7 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/Harshithdhara291",
-      style: "bg-gray-800",
+      style: "bg-gray-900",
     },
     {
       id: 3,
@@ -43,7 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md  bg-gray-500",
       download: true,
     },
   ];
@@ -55,7 +55,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300" +
               " " +
               style
             }

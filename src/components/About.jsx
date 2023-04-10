@@ -20,7 +20,7 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-        As a fresher, I am highly motivated and eager to learn and grow in the field of web development. I am passionate about creating engaging and user-friendly web applications that can make a difference in people's lives. I am a team player, always willing to collaborate with others and contribute to the success of the project. I have worked on various projects during my coursework, such as creating responsive and interactive websites, building e-commerce platforms, and designing intuitive user interfaces. 
+        As a fresher, I am highly motivated and eager to learn and grow in the field of web development. I am passionate about creating engaging and user-friendly web applications that can make a difference in people's lives. I am a team player, always willing to collaborate with others and contribute to the success of the project. 
         </p>
       </div>
     </div>

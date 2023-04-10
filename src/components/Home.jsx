@@ -35,7 +35,7 @@ const Home = () => {
           <img
             src='https://res.cloudinary.com/di4qjlwyr/image/upload/v1680689970/1676304424865_h07d4x.jpg'
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 m-10 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 mx-5 mb-5 md:w-full"
           />
         </div>
       </div>
