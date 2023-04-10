@@ -49,7 +49,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="self-center sm:mx-10 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 ">
+        <div className="sm:mx-10 grid sm:grid-cols-1 md:grid-cols-3 gap-8">
           {portfolios.map(({ id, image,demo,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
