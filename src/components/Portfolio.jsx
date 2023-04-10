@@ -7,12 +7,12 @@ const Portfolio = () => {
       id: 1,
       image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
       code:'https://github.com/Harshithdhara291/nxttrendz004',
-      demo:'nxttrendz004.ccbp.tech',
+      demo:'https://nxttrendz004.ccbp.tech/',
     },{
         id: 2,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695816/Screenshot_63_xwy5tk.png',
         code:'https://github.com/Harshithdhara291/REACT_IPL_dashboard',
-        demo:'myipldb.ccbp.tech',
+        demo:'https://myipldb.ccbp.tech/',
       },{
         id: 3,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695834/Screenshot_64_yzd7x1.png',
@@ -27,12 +27,12 @@ const Portfolio = () => {
         id: 5,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765847/Screenshot_68_airlt7.png',
         code:'https://github.com/Harshithdhara291/bmicalculator',
-        demo:'mybmicalculator.ccbp.tech',
+        demo:'https://mybmicalculator.ccbp.tech/',
       },{
         id: 6,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765831/Screenshot_67_x5rey0.png',
         code:'https://github.com/Harshithdhara291/RockPaperScissors',
-        demo:'harshrps004.ccbp.tech',
+        demo:'https://harshrps004.ccbp.tech/',
       },
   ];
 
@@ -42,20 +42,20 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 self-start">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="self-center sm:mx-10 grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 ">
           {portfolios.map(({ id, image,demo,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={image}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 md:hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <a href={demo} target='_blank' rel="noreferrer" className="flex justify-center items-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
