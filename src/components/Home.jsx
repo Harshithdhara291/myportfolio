@@ -13,7 +13,7 @@ const Home = () => {
             Hello, I am Harshith Dharavasthu
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Full stack development trainee at NxtWave and I'm excited to continue growing my skills and pursuing my passion for building websites and web applications.
+          A passionate Web developer and Full stack development trainee at NxtWave and I'm excited to continue growing my skills and pursuing my passion for building websites and web applications.
           </p>
 
           <div>
