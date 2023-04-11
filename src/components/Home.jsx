@@ -1,7 +1,11 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { Link } from 'react-scroll'
 const Home = () => {
+   useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `Harshith Dharavasthu`;
+  });
   return (
     <div
       name="home"
