@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-        Hi, my name is Harshith, and I'm graduating Btech final year in JNTUH university in the stream of Electrical engineering, Besides these I am learnig web development in Nxtwave. I have acquired strong technical skills in web development, which includes proficiency in HTML, CSS, JavaScript, and React.
+        Hi, my name is Harshith, and I'm graduating Btech final year in JNTUH university in the stream of Electrical engineering, Besides this I am also learning web development in Nxtwave. I have acquired strong technical skills in web development, which includes proficiency in HTML, CSS, JavaScript, and React.
         </p>
 
         <br />
