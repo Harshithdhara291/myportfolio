@@ -5,24 +5,24 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1682510467/Screenshot_75_brtmls.png',
+      code:'https://github.com/Harshithdhara291/firebase-crud',
+      demo:'https://library-management-firebase.netlify.app/',
+    },{
+      id: 2,
       image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
       code:'https://github.com/Harshithdhara291/nxttrendz004',
       demo:'https://nxttrendz004.ccbp.tech/',
     },{
-        id: 2,
+      id: 3,
+      image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1682510454/Screenshot_74_pa5lbs.png',
+      code:'https://github.com/Harshithdhara291/emoji-game',
+      demo:'https://emoji-stars.netlify.app/',
+    },{
+        id: 4,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695816/Screenshot_63_xwy5tk.png',
         code:'https://github.com/Harshithdhara291/REACT_IPL_dashboard',
         demo:'https://myipldb.ccbp.tech/',
-      },{
-        id: 3,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695834/Screenshot_64_yzd7x1.png',
-        code:'https://github.com/Harshithdhara291/booksapp',
-        demo:'https://harshithbooks.netlify.app/',
-      },{
-        id: 4,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680766470/Screenshot_70_jf15yx.png',
-        code:'https://github.com/Harshithdhara291/randomQuoteGenerator',
-        demo:'https://quotegenerator04.netlify.app/',
       },{
         id: 5,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765847/Screenshot_68_airlt7.png',
