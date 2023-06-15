@@ -4,35 +4,35 @@ import { BsFillArrowUpRightSquareFill } from "react-icons/bs";
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 1,
+        id: 1,
+        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1686847000/Screenshot_93_ovs8nl.png',
+        code:'https://github.com/Harshithdhara291/movies-app-mini-project',
+        demo:'https://moviesminipro.ccbp.tech/',
+      },{
+      id: 2,
+      image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
+      code:'https://github.com/Harshithdhara291/ecommerce-clone',
+      demo:'https://nxttrendz-ecommerce-clone.netlify.app',
+    },{
+      id: 3,
       image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1682510467/Screenshot_75_brtmls.png',
       code:'https://github.com/Harshithdhara291/firebase-crud',
       demo:'https://library-management-firebase.netlify.app/',
     },{
-      id: 2,
-      image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695797/Screenshot_62_hldrru.png',
-      code:'https://github.com/Harshithdhara291/nxttrendz004',
-      demo:'https://nxttrendz004.ccbp.tech/',
-    },{
-      id: 3,
+      id: 4,
       image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1682510454/Screenshot_74_pa5lbs.png',
       code:'https://github.com/Harshithdhara291/emoji-game',
       demo:'https://emoji-stars.netlify.app/',
     },{
-        id: 4,
+        id: 5,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695816/Screenshot_63_xwy5tk.png',
         code:'https://github.com/Harshithdhara291/REACT_IPL_dashboard',
         demo:'https://myipldb.ccbp.tech/',
       },{
-        id: 5,
+        id: 6,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765847/Screenshot_68_airlt7.png',
         code:'https://github.com/Harshithdhara291/bmicalculator',
         demo:'https://mybmicalculator.ccbp.tech/',
-      },{
-        id: 6,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765831/Screenshot_67_x5rey0.png',
-        code:'https://github.com/Harshithdhara291/RockPaperScissors',
-        demo:'https://harshrps004.ccbp.tech/',
       },
   ];
 
