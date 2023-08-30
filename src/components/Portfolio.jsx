@@ -20,9 +20,9 @@ const Portfolio = () => {
       demo:'https://library-management-firebase.netlify.app/',
     },{
       id: 4,
-      image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1682510454/Screenshot_74_pa5lbs.png',
-      code:'https://github.com/Harshithdhara291/emoji-game',
-      demo:'https://emoji-stars.netlify.app/',
+      image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1693374707/Screenshot_117_mgdnvj.png',
+      code:'https://github.com/Harshithdhara291/money-matters',
+      demo:'https://money-matters-004.netlify.app',
     },{
         id: 5,
         image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680695816/Screenshot_63_xwy5tk.png',
@@ -30,10 +30,10 @@ const Portfolio = () => {
         demo:'https://myipldb.ccbp.tech/',
       },{
         id: 6,
-        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1680765847/Screenshot_68_airlt7.png',
-        code:'https://github.com/Harshithdhara291/bmicalculator',
-        demo:'https://mybmicalculator.ccbp.tech/',
-      },
+        image: 'https://res.cloudinary.com/di4qjlwyr/image/upload/v1682510454/Screenshot_74_pa5lbs.png',
+        code:'https://github.com/Harshithdhara291/emoji-game',
+        demo:'https://emoji-stars.netlify.app/',
+      }
   ];
 
   return (
